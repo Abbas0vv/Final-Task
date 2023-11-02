@@ -1,4 +1,5 @@
 ﻿using Final_Task.Database.Base;
+using System.Data;
 
 namespace Final_Task.Database.Models;
 
@@ -13,6 +14,9 @@ public class User : BaseEntity<int>, IAuditable
     public DateTime CreatedAt { get; set; }
     public DateTime UpdatedAt { get; set; }
 
+    public List<Order> Orders { get; set; }
+
     public UserActivation Activation { get; set; }
+    public List<AlertMessage> AlerMessages { get; set; }
 
 }

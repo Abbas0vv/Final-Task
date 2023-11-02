@@ -26,5 +26,4 @@ public class Product : BaseEntity<int>, IAuditable
 
     public List<CategoryProduct> CategoryProducts { get; set; }
     public List<ProductColor> ProductColors { get; set; }
-    public List<ProductSize> ProductSizes { get; set; }
 }
