@@ -4,7 +4,7 @@ namespace Final_Task.Areas.Admin.Controllers;
 
 [Route("a/d")]
 [Area("admin")]
-public class DashBoardController : Controller
+public class DashboardController : Controller
 {
     [HttpGet("index")]
     public IActionResult Index() 

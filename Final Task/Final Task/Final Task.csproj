@@ -8,14 +8,14 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Areas\Admin\ViewComponents\**" />
-    <Compile Remove="Areas\Admin\ViewModels\**" />
-    <Compile Remove="Areas\Admin\Views\Category\**" />
-    <Compile Remove="Areas\Admin\Views\Curreny\**" />
-    <Compile Remove="Areas\Admin\Views\EmailMessage\**" />
-    <Compile Remove="Areas\Admin\Views\Order\**" />
-    <Compile Remove="Areas\Admin\Views\Product\**" />
-    <Compile Remove="Areas\Admin\Views\User\**" />
+    <Compile Remove="Areas\admin\ViewComponents\**" />
+    <Compile Remove="Areas\admin\ViewModels\**" />
+    <Compile Remove="Areas\admin\Views\Category\**" />
+    <Compile Remove="Areas\admin\Views\Curreny\**" />
+    <Compile Remove="Areas\admin\Views\EmailMessage\**" />
+    <Compile Remove="Areas\admin\Views\Order\**" />
+    <Compile Remove="Areas\admin\Views\Product\**" />
+    <Compile Remove="Areas\admin\Views\User\**" />
     <Compile Remove="Exeptions\**" />
     <Compile Remove="Helpers\**" />
     <Compile Remove="Hubs\**" />
@@ -28,14 +28,14 @@
     <Compile Remove="wwwroot\client\**" />
     <Compile Remove="wwwroot\common\**" />
     <Compile Remove="wwwroot\uploads\**" />
-    <Content Remove="Areas\Admin\ViewComponents\**" />
-    <Content Remove="Areas\Admin\ViewModels\**" />
-    <Content Remove="Areas\Admin\Views\Category\**" />
-    <Content Remove="Areas\Admin\Views\Curreny\**" />
-    <Content Remove="Areas\Admin\Views\EmailMessage\**" />
-    <Content Remove="Areas\Admin\Views\Order\**" />
-    <Content Remove="Areas\Admin\Views\Product\**" />
-    <Content Remove="Areas\Admin\Views\User\**" />
+    <Content Remove="Areas\admin\ViewComponents\**" />
+    <Content Remove="Areas\admin\ViewModels\**" />
+    <Content Remove="Areas\admin\Views\Category\**" />
+    <Content Remove="Areas\admin\Views\Curreny\**" />
+    <Content Remove="Areas\admin\Views\EmailMessage\**" />
+    <Content Remove="Areas\admin\Views\Order\**" />
+    <Content Remove="Areas\admin\Views\Product\**" />
+    <Content Remove="Areas\admin\Views\User\**" />
     <Content Remove="Exeptions\**" />
     <Content Remove="Helpers\**" />
     <Content Remove="Hubs\**" />
@@ -48,14 +48,14 @@
     <Content Remove="wwwroot\client\**" />
     <Content Remove="wwwroot\common\**" />
     <Content Remove="wwwroot\uploads\**" />
-    <EmbeddedResource Remove="Areas\Admin\ViewComponents\**" />
-    <EmbeddedResource Remove="Areas\Admin\ViewModels\**" />
-    <EmbeddedResource Remove="Areas\Admin\Views\Category\**" />
-    <EmbeddedResource Remove="Areas\Admin\Views\Curreny\**" />
-    <EmbeddedResource Remove="Areas\Admin\Views\EmailMessage\**" />
-    <EmbeddedResource Remove="Areas\Admin\Views\Order\**" />
-    <EmbeddedResource Remove="Areas\Admin\Views\Product\**" />
-    <EmbeddedResource Remove="Areas\Admin\Views\User\**" />
+    <EmbeddedResource Remove="Areas\admin\ViewComponents\**" />
+    <EmbeddedResource Remove="Areas\admin\ViewModels\**" />
+    <EmbeddedResource Remove="Areas\admin\Views\Category\**" />
+    <EmbeddedResource Remove="Areas\admin\Views\Curreny\**" />
+    <EmbeddedResource Remove="Areas\admin\Views\EmailMessage\**" />
+    <EmbeddedResource Remove="Areas\admin\Views\Order\**" />
+    <EmbeddedResource Remove="Areas\admin\Views\Product\**" />
+    <EmbeddedResource Remove="Areas\admin\Views\User\**" />
     <EmbeddedResource Remove="Exeptions\**" />
     <EmbeddedResource Remove="Helpers\**" />
     <EmbeddedResource Remove="Hubs\**" />
@@ -68,14 +68,14 @@
     <EmbeddedResource Remove="wwwroot\client\**" />
     <EmbeddedResource Remove="wwwroot\common\**" />
     <EmbeddedResource Remove="wwwroot\uploads\**" />
-    <None Remove="Areas\Admin\ViewComponents\**" />
-    <None Remove="Areas\Admin\ViewModels\**" />
-    <None Remove="Areas\Admin\Views\Category\**" />
-    <None Remove="Areas\Admin\Views\Curreny\**" />
-    <None Remove="Areas\Admin\Views\EmailMessage\**" />
-    <None Remove="Areas\Admin\Views\Order\**" />
-    <None Remove="Areas\Admin\Views\Product\**" />
-    <None Remove="Areas\Admin\Views\User\**" />
+    <None Remove="Areas\admin\ViewComponents\**" />
+    <None Remove="Areas\admin\ViewModels\**" />
+    <None Remove="Areas\admin\Views\Category\**" />
+    <None Remove="Areas\admin\Views\Curreny\**" />
+    <None Remove="Areas\admin\Views\EmailMessage\**" />
+    <None Remove="Areas\admin\Views\Order\**" />
+    <None Remove="Areas\admin\Views\Product\**" />
+    <None Remove="Areas\admin\Views\User\**" />
     <None Remove="Exeptions\**" />
     <None Remove="Helpers\**" />
     <None Remove="Hubs\**" />
@@ -91,8 +91,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Areas\Admin\Views\Shared\Components\" />
-    <Folder Include="Areas\Admin\Views\Shared\Partials\" />
+    <Folder Include="Areas\admin\Views\Shared\Components\" />
+    <Folder Include="Areas\admin\Views\Shared\Partials\" />
     <Folder Include="Migrations\" />
   </ItemGroup>
 
