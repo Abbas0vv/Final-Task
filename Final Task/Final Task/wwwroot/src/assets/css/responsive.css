@@ -1,0 +1,119 @@
+@media(max-width:990px) {
+
+    .slick_nav {
+        display: block !important;
+    }
+
+    .menu_links li a {
+        text-decoration: none;
+        color: #fff;
+    }
+
+    .main_menu {
+        display: none;
+    }
+
+    .tv_background {
+        width: 100%;
+        margin-top: 121px !important;
+    }
+
+    .entertainment_system {
+        left: 420px !important;
+        top: -5px !important;
+    }
+
+    .productsBox {
+        display: grid !important;
+        grid-template-columns: repeat(3, 1fr) !important;
+        overflow: hidden;
+    }
+
+    .containerSaleAndCase {
+        padding: 90px;
+    }
+
+    .saleAndCase {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr) !important;
+    }
+
+    .cards {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .users {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+@media(min-width:991px) {
+    .entertainment_system {
+        top: 20px !important;
+        left: 548px !important;
+    }
+
+    .productsBox {
+        display: grid !important;
+        grid-template-columns: repeat(4, 1fr) !important;
+        overflow: hidden;
+    }
+
+    .cards {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+
+@media(max-width:869px) {
+    .entertainment_system {
+        left: 420px !important;
+        top: -7px !important;
+        width: 356px !important;
+    }
+}
+
+
+@media(max-width:796px) {
+    .entertainment_system {
+        left: 390px !important;
+        top: -4px !important;
+        width: 356px !important;
+    }
+
+    .entertainment_system h2 {
+        font-size: 24px;
+    }
+}
+
+
+@media(max-width:785px) {
+    .cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .productsBox {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .entertainment_system {
+        left: 360px !important;
+        top: -7px !important;
+        width: 356px !important;
+    }
+
+    .entertainment_system h2 {
+        font-size: 28px;
+    }
+
+    .users {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

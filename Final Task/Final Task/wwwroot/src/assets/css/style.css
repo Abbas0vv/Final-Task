@@ -1,0 +1,225 @@
+body {
+    background-color: #f0f2f5;
+    font-family: Helvetica, Arial, sans-serif;
+
+}
+
+.container {
+    /* position: relative; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 4px;
+}
+
+.main {
+    /* display: flex;
+    align-items: center;
+    justify-content: space-between; */
+    text-align: left;
+    /* position: fixed;  */
+}
+
+.border {
+    margin-top: 30px;
+    border-bottom: 0.8px;
+}
+
+.textFacebook p {
+    font-size: 24px;
+    line-height: 28px;
+    width: 416px;
+    margin-left: 37px;
+    font-weight: normal;
+}
+
+.logInBtn button {
+    width: 100%;
+    font-size: 20px;
+}
+
+.forgottenPassword {
+    text-align: center;
+    margin: 16px 0px 0px;
+}
+
+.forgottenPassword a {
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.forgottenPassword a:hover {
+    text-decoration: underline;
+}
+
+.border {
+    margin: 20px 16px;
+}
+
+.accountBtn {
+    text-align: center;
+}
+
+.colLeft {
+    display: flex;
+    align-items: center !important;
+    padding: 3%;
+    height: 321px;
+}
+
+.card-width {
+    border-radius: 8px !important;
+    width: 396px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+}
+
+.inpt {
+    border-radius: 6px;
+}
+
+.extra {
+    color: #1c1e21;
+    font-family: Helvetica, Arial, sans-serif;
+    margin-top: 20px;
+    width: 396px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.extra a {
+    font-weight: 600;
+    color: black;
+    text-decoration: none;
+}
+
+.extra a:hover {
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.facebok_inner-text img {
+    height: 106px;
+}
+
+
+.button_account {
+    background-color: #42b72a;
+    color: #fff;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 48px;
+    padding: 0 16px;
+    ;
+}
+
+
+.button_account:hover {
+    color: #fff;
+    background-color: #2aa711;
+}
+
+.m {
+    margin-top: 177px;
+    position: absolute;
+    top: 80%;
+    flex-direction: row !important;
+}
+
+.m .card-body {
+    width: 1262px;
+}
+
+.downContainer {}
+
+.footer_ul {
+    margin-left: 0px !important;
+    padding: 0px !important;
+}
+
+
+.footer_ul_1 {
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: 0px !important;
+    padding: 0px !important;
+}
+
+.brdr {
+    border-bottom: 1px solid #8a8d91;
+}
+
+.first_li {
+    list-style: none;
+    color: #8a8d91;
+    margin-bottom: 0px;
+    margin-left: 0px !important;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer_ul_1 li {
+    list-style: none;
+    color: #8a8d91;
+    margin-left: 10px;
+    margin-bottom: 0px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer_ul li {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    margin-left: 10px;
+    color: #8a8d91;
+    display: inline-block;
+}
+
+.footer_ul_1 a {
+    text-decoration: none;
+    color: #8a8d91 !important;
+}
+
+.footer_ul_1 i {
+    color: #828486;
+    background-color: rgba(209, 212, 217, 0.788);
+    border: 1px solid #8a8d91;
+    font-size: 20px !important;
+    padding: 2px;
+    text-align: center;
+}
+
+.meta {
+    margin: 0px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    color: #8a8d91;
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 0px !important;
+}
+
+.sm {
+    background-color: #fff;
+    margin: 20px 40px 0px;
+    text-align: left;
+}
+
+.unactive {
+    display: none;
+}
+
+.active {
+    display: block;
+}
+
+.login_title {
+    color: #fb520a;
+}
+
+/* .logOut {
+    display: none;
+} */

@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../assets/css/my_css.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body id="body">
+
+    <!-- loader -->
+    <div class="loader active">
+        <div class="loader-item">
+            <div class="loader-icon"></div>
+        </div>
+    </div>
+
+    <div class=" animate-bottom">
+
+        <!-- header -->
+        <header>
+
+            <div class="header_fluid">
+                <div class="d-flex justify-content-between container my-0">
+                    <a href="/index.html">
+                        <div class="logo pt-3">
+                            <img src="/src/assets/img/logo_ecommerce.png" alt="">
+                        </div>
+                    </a>
+                    <div class="search">
+                        <form class="form-inline my-2">
+                            <input class="form-control" type="search" placeholder="search in transmart.com">
+                            <button class="btn btn-outline-warning " type="submit"><i
+                                    class="fa-solid fa-magnifying-glass"></i></button>
+                        </form>
+
+                        <ul class="search_ul">
+                            <li class="menu_link ">
+                                <!-- off-canvas-->
+                                <a class="btn btn-primary number" data-bs-toggle="offcanvas"
+                                    data-bs-target="#WithBothOptions">
+                                    <i class="fa-solid fa-basket-shopping">
+
+                                    </i>
+                                    <!-- <div class="num">1</div>  -->
+                                </a>
+
+                                <div class="offcanvas offcanvas-start" data-bs-scroll="true" id="WithBothOptions">
+                                    <div class="offcanvas-header">
+                                        <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">
+                                            Backdrop with scrolling
+                                        </h5>
+                                        <button type="button" class="btn-close" aria-label="Close">
+                                        </button>
+                                    </div>
+                                    <div class="offcanvas-body off_canvas_margin_bottom">
+                                        <p>Try scrolling the rest of the page to see this option in action.</p>
+                                        <!-- off-canvas body -->
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="menu_link userLogin"><a href="/src/pages/login.html">Log in</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+            <div class="main_menu">
+
+                <ul class="menu container">
+                    <div class=" dropdown">
+                        <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton1"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Dropdown button
+                        </button>
+                        <ul class="dropdown-menu menuBackcolor" aria-labelledby="dropdownMenuButton1">
+                            <li><a class="dropdown-item" href="/src/pages/header_links_page.html">Action</a></li>
+                            <li><a class="dropdown-item" href="/src/pages/header_links_page.html">Another action</a>
+                            </li>
+                            <li><a class="dropdown-item" href="/src/pages/header_links_page.html">Something else
+                                    here</a>
+                            </li>
+                        </ul>
+                    </div>
+                </ul>
+            </div>
+
+            <!-- slick nav -->
+            <div class="slick_nav">
+                <span class="slicknav_menu menu-responsive">
+                    <i class="fa-solid fa-bars bars ">
+                        <ul class="menu_links">
+                            <li id="1"><a href="#">Home</a></li>
+                            <li id="2"><a href="#">Shop</a></li>
+                            <li id="3"><a href="#">About</a></li>
+                            <li id="4"><a href="#">Latest</a></li>
+                            <li id="5"><a href="#">Blog</a></li>
+                            <li id="6"><a href="#">Pages</a></li>
+                            <li id="7"><a href="#">Contact</a></li>
+                        </ul>
+                    </i>
+
+                </span>
+            </div>
+
+        </header>
+
+
+
+        <main class="container">
+            <div class="all_product_gallery">
+
+                <div class="gallery-wrap">
+
+                    <!-- 
+                <div class="galery">
+                    <div class="./src/assets-big-wrap img-thumbnail">
+                        <a href="./src/assets/phone1.jpg" data-type="image" data-fslightbox="mygallery">
+                            <img src="./assets/img/phone1.jpg" alt="">
+                        </a>
+                    </div>
+                    
+                    <a href="./src/assets/phone2.jpg" data-type="image" data-fslightbox="mygallery">
+                        <img width="60" height="60" src="./assets/img/phone2.jpg" alt="">
+                    </a>
+                    <a href="./src/assets/phone_info2.jpg" data-type="image" data-fslightbox="mygallery">
+                        <img width="60" height="60" src="./assets/img/phone_info2.jpg" alt="">
+                    </a>
+                    <a href="./src/assets/phone_info1.jpg" data-type="image" data-fslightbox="mygallery">
+                        <img width="60" height="60" src="./assets/img/phone_info1.jpg" alt="">
+                    </a>
+                </div> -->
+
+
+                </div>
+
+                <div class="gall">
+                    <div class="gallery_info">
+                        <!-- <span class="infoWay">Home/Smart Home / michrofone</span>
+                      <h2 class="productName">
+                      Smart Speaker with Alexa Voice Control Built-in Compact Size with Incredible Sound for Any Room
+                    </h2>
+                    <p class="price">1234$</p> 
+                    <span>Key feautures:</span> -->
+                        <div class="feautures">
+                            <ul class="feautures_ul">
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </main>
+
+
+           <!-- footer -->
+           <footer>
+
+            <div class="footerSides">
+
+                <div class="logo_side">
+                    <img src="/src/assets/img/logo_ecommerce.png" alt="">
+                </div>
+
+                <div class="shop_side">
+                    <ul class="shopSideItems categories">
+                        <li class="shopSideItem">
+                            <a href="#">
+                                Hot deals
+                            </a>
+                        </li>
+                        <li class="shopSideItem">
+                            <a href="#">
+                                Categories
+                            </a>
+                        </li>
+                        <li class="shopSideItem">
+                            <a href="#">
+                                Brands
+                            </a>
+                        </li>
+                        <li class="shopSideItem">
+                            <a href="#">
+                                Rebates
+                            </a>
+                        </li>
+                        <li class="shopSideItem">
+                            <a href="#">
+                                Weekly deals
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <div class="needs">
+                    <ul class="shopSideItems categories">
+                        <li class="shopSideItem">
+                            <a href="#">
+                                Hot deals
+                            </a>
+                        </li>
+                        <li class="shopSideItem">
+                            <a href="">
+                                Categories
+                            </a>
+                        </li>
+                        <li class="shopSideItem">
+                            <a href="#">
+                                Brands
+                            </a>
+                        </li>
+                        <li class="shopSideItem">
+                            <a href="#">
+                                Rebates
+                            </a>
+                        </li>
+                        <li class="shopSideItem">
+                            <a href="#">
+                                Weekly deals
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <div class="contact_side">
+                    <ul class="shopSideItems categories">
+                        <li class="shopSideItem">
+                            <a href="#">
+                                Hot deals
+                            </a>
+                        </li>
+                        <li class="shopSideItem">
+                            <a href="#">
+                                Categories
+                            </a>
+                        </li>
+                        <li class="shopSideItem">
+                            <a href="#">
+                                Brands
+                            </a>
+                        </li>
+                        <li class="shopSideItem">
+                            <a href="#">
+                                Rebates
+                            </a>
+                        </li>
+                        <li class="shopSideItem">
+                            <a href="#">
+                                Weekly deals
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+
+
+            </div>
+
+            <a href="#body" id="backtotop"><i class="fa-regular fa-circle-up"></i></a>
+
+            <!-- down footer -->
+            <div class="downFooter">
+                <div class="copyWrite">
+                    © 2023. All rights reserved by Electronic Store.
+                </div>
+                <div class="footerIcons">
+                    <i class="fa-brands fa-cc-visa"></i>
+                    <i class="fa-brands fa-cc-mastercard"></i>
+                    <i class="fa-brands fa-cc-paypal"></i>
+                    <i class="fa-brands fa-cc-amazon-pay"></i>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <script src="../assets/js/productsList.js"></script>
+    <script src="/src/assets/js/headerMenuLinks.js"></script>
+    <script src="/src/assets/js/fslightbox.js"></script>
+    <!-- <script src="/src/assets/js/user.js"></script> -->
+    <script src="/src/assets/js/script.js"></script>
+    <script src="/src/assets/js/product.js"></script>
+    <script src="/src/assets/js/user_data.js"></script>
+</body>
+
+</html>
